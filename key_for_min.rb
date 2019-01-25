@@ -12,7 +12,7 @@ binding.pry
       initial_number = 1
       min_name = name
       min_number = number
-    elsif number < min_number
+    elsif binding.pry #number < min_number
       min_number = number
       min_name = name
     end
