@@ -3,7 +3,6 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-binding.pry
   initial_number = 0
   min_number = nil
   min_name = nil
