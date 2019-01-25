@@ -9,7 +9,7 @@ binding.pry
   min_name = nil
   name_hash.each do |name, number|
     if initial_number == 0
-      initial_number += 1
+      initial_number = 1
       min_name = name
       min_number = number
     elsif number < min_number
